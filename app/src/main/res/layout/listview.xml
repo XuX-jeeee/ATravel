@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.xuexiang.xui.widget.layout.XUILinearLayout
+        android:id="@+id/TopTaskContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/round_solid_shape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/priority"
+        tools:ignore="MissingConstraints"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/context"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="TEXT"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        <com.xuexiang.xui.widget.layout.XUILinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.xuexiang.xui.widget.layout.XUILinearLayout
+                android:layout_weight="10"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="bottom|left"
+                android:layout_marginBottom="10dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/Memorandum_date"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="2022/4/2" />
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/time"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="00:00"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13sp" />
+            </com.xuexiang.xui.widget.layout.XUILinearLayout>
+            <ImageView
+                android:layout_weight="1"
+                android:id="@+id/edit"
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="right|center_vertical"
+                android:clickable="true"
+                android:src="@drawable/edit" />
+            <ImageView
+                android:layout_weight="1"
+                android:id="@+id/delete"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="right|center_vertical"
+                android:clickable="true"
+                android:src="@drawable/delete" />
+        </com.xuexiang.xui.widget.layout.XUILinearLayout>
+
+
+
+    </com.xuexiang.xui.widget.layout.XUILinearLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="5dp"
+        android:layout_height="150dp"
+        android:background="#DCDEEB"
+        app:layout_constraintBottom_toBottomOf="@+id/TopTaskContainer"
+        app:layout_constraintEnd_toEndOf="@+id/priority"
+        app:layout_constraintStart_toStartOf="@+id/priority"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.xuexiang.xui.widget.imageview.RadiusImageView
+        android:id="@+id/priority"
+        android:layout_width="20dp"
+        app:riv_corner_radius="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        app:layout_constraintBottom_toBottomOf="@+id/TopTaskContainer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TopTaskContainer"
+        app:layout_constraintVertical_bias="0.597"
+        android:src="@color/app_color_theme_7"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

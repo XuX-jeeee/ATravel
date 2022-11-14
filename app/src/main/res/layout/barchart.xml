@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:layout_marginHorizontal="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:text="分心情况柱状图"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="#009883"
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp" />
+
+
+            <com.example.uitest.reconstruct.MyBarChart
+                android:id="@+id/abstracted_chart"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+
+        </LinearLayout>
+    <ImageView
+        android:layout_marginBottom="-50dp"
+
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/bg1"/>
+</FrameLayout>

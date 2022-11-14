@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xuexiang.xui.widget.layout.XUIFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:folding-cell="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <com.xuexiang.xui.widget.layout.XUILinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/app_color_theme_7">
+        <ImageView
+            android:id="@+id/back"
+
+            android:layout_margin="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/arrow_left"/>
+    </com.xuexiang.xui.widget.layout.XUILinearLayout>
+    <androidx.cardview.widget.CardView
+        android:clickable="true"
+        android:id="@+id/me_item_1"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="160dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:cardCornerRadius="15dp"
+        android:orientation="vertical"
+        android:translationZ="2dp">
+        <com.xuexiang.xui.widget.layout.XUILinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+        </com.xuexiang.xui.widget.layout.XUILinearLayout>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="110dp"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="外观与体验"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/white"/>
+
+
+</com.xuexiang.xui.widget.layout.XUIFrameLayout>
+
+
+

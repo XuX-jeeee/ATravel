@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/shijianzhou1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <com.xuexiang.xui.widget.layout.XUILinearLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginRight="30dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/write"/>
+            <TextView
+                android:id="@+id/shijianzhou"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:text="备忘录"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+        </com.xuexiang.xui.widget.layout.XUILinearLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/Listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/shijianzhou1"
+        android:layout_marginLeft="30dp"
+        android:divider="@null">
+
+    </ListView>
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="35dp"
+        android:id="@+id/addBtn"
+        app:cardBackgroundColor="@color/app_color_theme_5"
+        android:clickable="true"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textStyle="bold" >
+        <com.xuexiang.xui.widget.imageview.RadiusImageView
+            android:clickable="true"
+            android:id="@+id/add_image"
+            android:layout_width="40dp"
+            android:layout_gravity="center"
+            android:layout_height="40dp"
+            android:src="@drawable/add"/>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

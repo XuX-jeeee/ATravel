@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xuexiang.xui.widget.layout.XUILinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/login_layout_scene">
+
+<com.xuexiang.xui.widget.layout.XUILinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        app:cardElevation="0dp">
+        <ImageView
+            android:layout_gravity=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pic_login" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="登录"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/atm" />
+
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="33dp"
+            android:background="@null"
+            android:hint="请输入账户"
+            android:singleLine="true"
+            android:textColorHint="@color/textColorHint"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/reg_diver2"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@color/input_dvier" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="27dp"
+            android:src="@drawable/password"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="20"
+            android:background="@null"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:singleLine="true"
+            android:textColorHint="@color/textColorHint"
+            android:textSize="16sp" />
+        <ImageView
+            android:id="@+id/visible"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/unvisible"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@color/input_dvier" />
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp">
+        <Button
+            android:id="@+id/login"
+            android:layout_width="321dp"
+            android:layout_height="48dp"
+            android:text="登录"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="#CC0065FF"
+            android:textSize="16sp" />
+    </androidx.cardview.widget.CardView>
+    <com.xuexiang.xui.widget.layout.XUILinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="没有账号？请先 "/>
+        <TextView
+            android:id="@+id/register"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:text="注册"
+            android:textColor="@color/light_blue_500"
+            android:textSize="16dp"
+            app:rb_borderColor="@color/xui_transparent" />
+    </com.xuexiang.xui.widget.layout.XUILinearLayout>
+</com.xuexiang.xui.widget.layout.XUILinearLayout>
+
+</com.xuexiang.xui.widget.layout.XUILinearLayout>

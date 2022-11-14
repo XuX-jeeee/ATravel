@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#299EE3</color>
+    <color name="colorPrimaryDark">#299EE3</color>
+    <color name="colorAccent">#299EE3</color>
+
+    <color name="colorAccent_select">#65b0dc</color>
+
+
+    <color name="gray_btn">#9E9E9E</color>
+
+    <color name="gray_icon">#99A0AA</color>
+
+    <color name="green_btn_color_normal">#2BCFB8</color>
+    <color name="green_btn_color_disable">#CCCCCC</color>
+    <color name="green_btn_color_pressed">#05bca2</color>
+
+    <color name="menu_white_normal">#FFFFFF</color>
+    <color name="menu_white_pressed">#CFCFCF</color>
+    <color name="menu_red_normal">#FF0000</color>
+    <color name="menu_red_pressed">#FF6666</color>
+    <color name="menu_green_normal">#37C000</color>
+    <color name="menu_green_pressed">#30A070</color>
+    <color name="menu_purple_normal">#9932CC</color>
+    <color name="menu_purple_pressed">#9F79EE</color>
+
+    <color name="tint">#f44336</color>
+    <color name="tint_background">#42f44336</color>
+
+
+    <!-- Components 组件 -->
+    <color name="radiusImageView_border_color">#EF5362</color>
+    <color name="radiusImageView_selected_border_color">#FE6D4B</color>
+    <color name="radiusImageView_selected_mask_color">#7FEF5362</color>
+
+    <color name="color_bg_loading">#dc858585</color>
+    <color name="color_bg_success">#dc82ce32</color>
+    <color name="color_bg_error">#dcd84315</color>
+
+    <color name="scan_corner_color">#0effc2</color>
+
+    <color name="color_f4">#F4F4F4</color>
+
+    <!-- Expands 系列界面 -->
+
+    <color name="color_red">#FD2E4A</color>
+
+        <color name="purple_200">#FFBB86FC</color>
+        <color name="purple_500">#FF6200EE</color>
+        <color name="purple_700">#FF3700B3</color>
+        <color name="teal_200">#FF03DAC5</color>
+        <color name="teal_700">#FF018786</color>
+        <color name="black">#FF000000</color>
+        <color name="white">#FFFFFFFF</color>
+        <color name="primary">#3C515C</color>
+        <color name="primary_dark">#142E3C</color>
+        <color name="accent">#40C4FF</color>
+        <color name="black_20">#33000000</color>
+        <color name="white_20">#33FFFFFF</color>
+
+        <color name="text_enabled">#FFFFFFFF</color>
+        <color name="text_disabled">#4DFFFFFF</color>
+
+        <color name="icon_enabled">#FFFFFFFF</color>
+        <color name="icon_disabled">#FF63727B</color>
+
+        <color name="medium_text_enabled">#FF000000</color>
+        <color name="medium_text_disabled">#4D000000</color>
+
+        <color name="light_blue_500">#03A9F4</color>
+        <color name="cyan_500">#00BCD4</color>
+        <color name="teal_500">#009688</color>
+        <color name="green_500">#4CAF50</color>
+        <color name="light_green_500">#8BC34A</color>
+        <color name="forest_green">#50a387</color>
+    <color name="color_green">#13D1BE</color>
+
+    <color name="transparent">#55ff</color>
+    <color name="app_color_theme_1">#EF5362</color> <!-- Grapefruit -->
+    <color name="app_color_theme_2">#FE6D4B</color> <!-- Bittersweet -->
+    <color name="app_color_theme_3">#FFCF47</color> <!-- Sunflower -->
+    <color name="app_color_theme_4">#9FD661</color> <!-- Grass -->
+    <color name="app_color_theme_5">#3FD0AD</color> <!-- Mint -->
+    <color name="app_color_theme_6">#2BBDF3</color> <!-- Aqua -->
+    <color name="app_color_theme_7">#5A9AEF</color> <!-- Blue Jeans -->
+    <color name="app_color_theme_8">#AC8FEF</color> <!-- Lavender -->
+    <color name="app_color_theme_9">#EE85C1</color> <!-- Pink Rose -->
+
+
+    <color name="web_colorPrimary">#393a3f</color>
+    <color name="web_colorPrimaryDark">#303135</color>
+    <color name="web_colorAccent">#1aad19</color>
+
+
+    <color name="light_orange">#FFC2aa</color>
+    <color name="dark_orange">#ee8a3a</color>
+    <color name="purple_start">#7117ea</color>
+    <color name="purple_end">#ea6060</color>
+    <color name="green_start">#42e695</color>
+    <color name="green_end">#3bb2b8</color>
+    <color name="blue_start">#879af2</color>
+    <color name="blue_end">#fda000</color>
+    <color name="purple_light">#e488ff</color>
+    <color name="red_start">#EE3455</color>
+    <color name="red_end">#FFaa89</color>
+
+    <color name="drop_down_selected">#7B1FA2</color>
+    <color name="drop_down_unselected">#111111</color>
+    <color name="check_bg">#f2f2f2</color>
+    <color name="un_press_color">#9C27B0</color>
+    <color name="input_dvier">#D8D8D8</color>
+    <color name="input_dvier_focus">#1BB879</color>
+    <color name="loginButtonText">#B5B2B2</color>
+    <color name="loginButtonTextFouse">#FFFFFF</color>
+    <color name="loginButtonBackgroundFouse">#07C160</color>
+    <color name="loginButtonBackgroundNotFouse">#D4D8D5</color>
+    <color name="title">#EDEDED</color>
+    <color name="loginText">#5A5959</color>
+    <color name="textColorHint">#DDDDDD</color>
+    <color name="dribbble_blue">#9ADCFF</color>
+
+    <color name="config_color_select_bg">#FFF1F1F1</color>
+</resources>

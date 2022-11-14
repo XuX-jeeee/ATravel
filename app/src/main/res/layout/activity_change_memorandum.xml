@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xuexiang.xui.widget.layout.XUILinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".me.ChangeRelativesPhone">
+    <com.hjq.bar.TitleBar
+        android:paddingTop="30dp"
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_color_theme_7"
+        app:leftIcon="@drawable/arrow_left"
+        app:title="修改便签"
+        app:titleColor="@color/white"
+        app:titleSize="17dp"
+        app:titleStyle="bold"
+        app:rightTitle="完成"
+        app:rightTitleColor="@color/white"
+        app:rightTitleSize="17dp"
+        app:leftIconHeight="20dp"
+        app:leftIconWidth="20dp"
+        android:elevation="0dp"/>
+
+    <EditText
+        android:id="@+id/change_memorandum"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+</com.xuexiang.xui.widget.layout.XUILinearLayout>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:folding-cell="http://schemas.android.com/tools">
+    <com.xuexiang.xui.widget.layout.XUIFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.xuexiang.xui.widget.layout.XUILinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/app_color_theme_7">
+            <ImageView
+                android:id="@+id/back"
+
+                android:layout_margin="10dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/arrow_left"/>
+        </com.xuexiang.xui.widget.layout.XUILinearLayout>
+        <androidx.cardview.widget.CardView
+            android:clickable="true"
+            android:id="@+id/me_item_1"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="160dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="15dp"
+            android:orientation="vertical"
+            android:translationZ="2dp">
+            <com.xuexiang.xui.widget.layout.XUILinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="安途用户信息获取说明"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="        感谢您使用安途。我们尊重并致力于保护您的隐私权。接下来，我们将阐述我们的信息收集与使用政策和您对您的信息的权利！"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="从何收集信息"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="        根据您的指令，我们可能从包含但不限于下列渠道获取关于您的信息。\n
+        您的设备发送的请求——例如您的 IP 地址、浏览器与设备信息、Cookie\n
+        已填写信息——例如您的微信用户标识符、昵称、头像\n
+        紧急情况处理——例如自动拨打紧急联系人电话，自动发送紧急短信。\n
+        我们将遵循合法、正当、必要的原则，合理利用这些信息。"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="为什么要收集信息"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="        我们的服务需要您的一些信息才能实现。例如，我们通过获取能的通话限权和短信限权，以便向您提供紧急情况下的求助服务。\n
+
+       为了改善我们的服务，我们需要收集一些信息。例如您的功能使用情况、用户特征。我们确保您不会被追溯。\n
+
+       为了通知必要事件或解决问题，我们可能会有限度地利用您的信息与您取得联系。我们将会严格控制其中的流程与参与人员。\n"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="更正权"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="        您能通过与我们联系，对错误的个人信息进行更正或删除。\n"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="删除权"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="        当您决定停止使用我们的服务后，您可用联系我们注销账号、删除您的信息。
+\n"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="联系我们"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="        如果您对本隐私权政策有任何疑问或有相关请求，请联系我们。
+\n"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="邮箱：su1an_x@hdu.edu.cn"
+                    android:textSize="15dp" />
+                <TextView
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="QQ:2126179182"
+                    android:textSize="15dp" />
+            </com.xuexiang.xui.widget.layout.XUILinearLayout>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="110dp"
+            android:gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="隐私权"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/white"/>
+
+    </com.xuexiang.xui.widget.layout.XUIFrameLayout>
+
+</ScrollView>
+
+
+
